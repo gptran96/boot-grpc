@@ -1,3 +1,8 @@
 spring:
-  application:
-    name: boot-grpc
+  grpc:
+    server:
+      port: 9091
+      reflection:
+        enabled: true
+server:
+  port: 8081
